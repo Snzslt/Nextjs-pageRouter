@@ -4,10 +4,7 @@ function DetailPage(){
 
     const router = useRouter();
 
-    const newsId = router.query.newsId;
-
-    //using this method we can send a ewquest to the backend API
-    //to Fetch the news item with newId
+    console.log(router.query.newsId);
 
     return <h1>The Detail Page </h1>
 }
